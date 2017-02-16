@@ -1,4 +1,4 @@
-all: hello-exec hello-spawn hello-pipe hello-vm hello-stdin hello-stream
+all: hello-exec hello-spawn hello-pipe hello-vm hello-stdin hello-stream http-request
 
 hello-exec:
 	nodejs hello-exec.js
@@ -18,4 +18,7 @@ hello-stdin:
 
 hello-stream:
 	nodejs hello-stream.js
+
+http-request:
+	nodejs http-request.js
 

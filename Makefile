@@ -1,4 +1,4 @@
-all: hello-exec hello-spawn hello-pipe hello-vm hello-stdin hello-stream http-request hello-argv
+all: hello-exec hello-spawn hello-pipe hello-vm hello-stdin hello-stream http-request hello-argv a.out
 
 hello-exec:
 	nodejs hello-exec.js
@@ -24,5 +24,8 @@ http-request:
 
 hello-argv:
 	nodejs hello-argv.js date -Iseconds
+
+a.out: main.c
+	gcc main.c
 
 

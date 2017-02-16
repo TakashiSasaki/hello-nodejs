@@ -1,4 +1,4 @@
-all: hello-exec hello-spawn hello-pipe hello-vm hello-stdin hello-stream http-request
+all: hello-exec hello-spawn hello-pipe hello-vm hello-stdin hello-stream http-request hello-argv
 
 hello-exec:
 	nodejs hello-exec.js
@@ -21,4 +21,8 @@ hello-stream:
 
 http-request:
 	nodejs http-request.js
+
+hello-argv:
+	nodejs hello-argv.js date -Iseconds
+
 

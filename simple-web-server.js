@@ -29,3 +29,4 @@ http.createServer(function(req, res){
 
 }).listen(10080, "127.0.0.1");
 
+console.log("https://goo.gl/M62uVj is convenient to POST form data.");
